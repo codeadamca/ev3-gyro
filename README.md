@@ -5,11 +5,14 @@ This example will change the speed and direction of a motor based on the angle o
 
 Of all the EV3 sensors, the gyro sensor seems to cause the most problems. Here are some issues that I ran into:
 
-## Calibration
-The gyro sensors calibrates itself to determine what is zero for both speed and angle. The angle is reset at the beginning of the script using the reset_angle method. THe speed is reset when the sensor is plugged in. If the starting speed is not zero unplug the gyro sensor from the EV3 brick and then plug it back in, try not to move it when you plug it back in.
+## Speed Calibration
+The gyro sensors calibrates the starting speed when the sensor is plugged into the EV3 brick. If the starting speed is not zero, unplug the gyro sensor from the EV3 brick and then plug it back in. Keep the gyro sensor still when you plug it in to give it a chance to callibrate.
+
+## Angle Calibration
+The gyro sensors calibrates the starting angle when the sensor is plugged into the EV3 brick. However, the angle can be reset using the reset_angle method. In this script the angle is reset chortly after the beep. Make sure the sensor is positioned at zero when you start the script.
 
 ## Rotation
-The rotation is based on the diagram on the EV3 gyro sensor. The red dot is the center of the rotation. Clockwise is positive and counter-clockwise is negative. However, this can be switched when initializing the gyro sensor. 
+The rotation is based on the diagram on the EV3 gyro sensor. The red dot is the center of the rotation. Clockwise is positive and counter-clockwise is negative. If desired, this can be switched when initializing the gyro sensor. 
 
 <a href="https://codeadam.ca">
 <img src="https://codeadam.ca/images/code-block.png" width="100">
