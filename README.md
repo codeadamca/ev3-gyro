@@ -3,6 +3,8 @@ A Python snippet utilizing the LEGO EV3 gyro sensor, the LEGO EV3 Brick and [Pyb
 
 This example will change the speed and direction of a motor based on the angle of the gyro sensor.
 
+The [Documentation for Pybricks](https://docs.pybricks.com/en/latest/ev3devices.html) is really helpful.
+
 Of all the EV3 sensors, the gyro sensor seems to cause the most problems. Here are some issues that I ran into:
 
 ## Speed Calibration
