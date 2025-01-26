@@ -25,7 +25,7 @@ The rotation is based on the diagram on the EV3 gyro sensor. The red dot is the 
 - [Pybricks](https://pybricks.com/)
 - [Python for EV3](https://education.lego.com/en-us/support/mindstorms-ev3/python-for-ev3)
 
+<br>
 <a href="https://codeadam.ca">
-<img src="https://codeadam.ca/images/code-block.png" width="100">
+<img src="https://cdn.codeadam.ca/images@1.0.0/codeadam-logo-coloured-horizontal.png" width="200">
 </a>
-
